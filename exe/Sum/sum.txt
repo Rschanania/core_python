@@ -1,0 +1,10 @@
+print("Sum of the number :-")
+print("From :- ")
+n1=int(input())
+print("TO :- ")
+n2=int(input())
+sum=0
+for i in range(n1,n2+1):
+    sum+=i
+
+print("Sum of the numbser is  :- ",sum)
